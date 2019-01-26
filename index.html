@@ -1,0 +1,405 @@
+<html lang="">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>
+      Stockz - Research stockz
+    </title>
+    <meta name="description" content="Nutzen Sie die investment toolbox made by Bavest."/>
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-144x144.png" />
+    <!-- 
+      ____              __      __  ______    _____   _______ 
+     |  _ \      /\     \ \    / / |  ____|  / ____| |__   __|
+     | |_) |    /  \     \ \  / /  | |__    | (___      | |   
+     |  _ <    / /\ \     \ \/ /   |  __|    \___ \     | |   
+     | |_) |  / ____ \     \  /    | |____   ____) |    | |   
+     |____/  /_/    \_\     \/     |______| |_____/     |_|   
+    -->
+     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+     <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta property="og:image" content="assets/p5xsw2jf.png?w=1200&amp;h=630&amp;fit=crop"/>
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-115612963-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-115612963-1');
+    </script>
+    <script>
+      "use strict";
+      
+      !function() {
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+          t.factory = function(e) {
+            return function() {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }, t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+          }), t.load = function(t) {
+            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          };
+        }
+      }();
+      drift.SNIPPET_VERSION = '0.3.1';
+      drift.load('dfpt8rcytbsv');
+    </script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#3b4ef7"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "Diese Website nutzt Cookies, um bestmögliche Funktionalität zu bieten.",
+    "dismiss": "Einverstanden",
+    "link": "Mehr erfahren",
+    "href": "privacy.html"
+  }
+})});
+</script>
+  </head>
+  <body>
+    <div style="font-family:&#x27;Roboto&#x27;, Arial, serif;font-size:14px">
+      <div>
+        <header class="header" style="color:#fff;font-weight:400">
+          <div class="wr">
+            <a id="headerLogo" href="index.html" class="header__logo" style="font-weight:300">
+              Stockz <strong><sup style="color:#ff5050;">BETA</sup></strong>
+            </a>
+             <nav id="headerNav" class="header__nav"> 
+              <a href="stockz.html" class="btn btn--c btn--plain" style="color:rgba(255,255,255,1)">
+                Aktien
+              </a>
+              <a href="#" class="btn btn--c btn--plain" style="color:rgba(255,255,255,1)">
+                News
+              </a>
+             
+            </nav>
+            <nav id="headerMenu" class="header__nav header__nav--hidden">
+              <button id="headerMenuButton" class="btn btn--c btn--primary" style="color:rgba(0,51,255,1);background-color:rgba(255,255,255,1)">
+                Menu
+              </button>
+            </nav>
+            <nav id="headerDrawer" class="headerMenu">
+              <div id="headerDrawerBackdrop" class="headerMenu__backdrop">
+              </div>
+              <ul class="headerMenu__links">
+                <li>
+                  <a href="stockz.html" class="btn btn--c btn--plain" style="color:rgba(0,51,255,1)">
+                    Aktien
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn--c btn--plain" style="color:rgba(0,51,255,1)">
+                    News
+                  </a>
+                </li>
+              </ul>
+              <button id="headerDrawerClose" class="headerMenu__close btn">
+                Close
+              </button>
+            </nav>
+          </div>
+          <script>
+            (function() {
+              var buffer = 10;
+              var margin = 60 + 40 + buffer;
+              // button
+              var button = document.getElementById('headerMenuButton');
+              var buttonWrapper = document.getElementById('headerMenu');
+              // drawer
+              var drawer = document.getElementById('headerDrawer');
+              var drawerBackdrop = document.getElementById('headerDrawerBackdrop');
+              var drawerClose = document.getElementById('headerDrawerClose');
+              // header UI
+              var logo = document.getElementById('headerLogo');
+              var nav = document.getElementById('headerNav');
+              var logoWidth = logo.offsetWidth;
+              var navWidth = nav.offsetWidth;
+            
+              var determineVisibility = function() {
+                var parent = window.innerWidth;
+                if (logoWidth + navWidth > parent - margin) {
+                  nav.classList.add('header__nav--hidden');
+                  buttonWrapper.classList.add('headerMenu--visible');
+                } else {
+                  nav.classList.remove('header__nav--hidden');
+                  buttonWrapper.classList.remove('headerMenu--visible');
+                }
+              };
+            
+              var showDrawer = function() {
+                drawer.classList.add('headerMenu--visible');
+              };
+            
+              var hideDrawer = function() {
+                drawer.classList.remove('headerMenu--visible');
+              };
+            
+              button.onclick = showDrawer;
+              drawerBackdrop.onclick = hideDrawer;
+              drawerClose.onclick = hideDrawer;
+            
+              window.addEventListener('resize', determineVisibility);
+              determineVisibility();
+            })();
+          </script>
+        </header>
+      </div>
+      <div>
+        <div class="section section--hero" style="background-image:url(assets/header.jpg?w=1300&amp;h=800&amp;q=50&amp;fit=crop)">
+          <div class="wr heroWr heroWr--left">
+            <div class="heroWrapper heroWrapper--left heroWrapper--pd">
+              <h1 class="hero__title" style="color:#fff;font-weight:950;font-family:&#x27;Roboto&#x27;, Arial, serif">
+                Aktien finden mit <img src="assets/stockz_white.png" width="300">
+              </h1>
+              <h2 class="hero__subtitle" style="color:#eee;font-weight:500">
+                100% kostenlos
+              </h2>
+              <div class="hero__ctas">
+                <a href="www.bavest.org/kontakt.html" class="btn btn--c btn--primary btn--large" style="color:rgba(0,51,255,1);background-color:rgba(255,255,255,1)">
+                  Kontakt
+                </a>
+                <a href="https://horizon.bavest.org/" class="btn btn--c btn--secondary btn--large" style="color:rgba(255,255,255,1)">
+                  Kunde werden
+                </a>
+              </div>
+            </div>
+            <div class="pd pd--right">
+              <img src="assets/stockz-nbg.png?h=500&amp;fix=crop" class="pd__imgBox pd__imgBox--transparent"/>
+            </div>
+          </div>
+          <div class="divider">
+                       <svg viewBox="0 0 1695 57" preserveAspectRatio="none">
+              <path d="M0 23c135.4 19 289.6 28.5 462.5 28.5C721.9 51.5 936.7 1 1212.2 1 1395.8.9 1556.7 8.3 1695 23v34H0V23z" fill="rgba(252,252,252,1)" fill-rule="evenodd">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section section--logos" style="background-color:#FCFCFC">
+          <div class="wr">
+            <h3 class="section__subtitle center standalone" style="color:#6B7C93;font-weight:400">
+              Powered by
+            </h3>
+           <div>
+               <center>
+                <a href="https://www.bavest.org/">
+                <img src="assets/logo.png" width="300" height="180" alt="cityfalcon"></center>
+               </a>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section section--cta  section--center" style="background: rgb(2,0,36);
+         background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);">
+          <div class="wr">
+            <div class="cta__titles">
+              <h2 class="section__title center" style="color:#fff;font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+                Horizon – Unser einzigartiges Produkt
+              </h2>
+              <h3 class="section__subtitle center" style="color:#eee;font-weight:400">
+                Aktien automatisiert analysieren.
+                Unsere Algorithmen analysieren Aktien mithilfe von mathematischen Modellen und Fundamentaldaten. HORIZON ist das ultimative Werkzeug zur Analyse von Aktien. 
+              </h3>
+            </div>
+            <div class="cta__ctas">
+              <a href="https://horizon.bavest.org/" class="btn btn--c btn--primary btn--large" style="color:rgba(0,51,255,1);background-color:rgba(255,255,255,1)">
+                Mehr erfahren
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div>
+        <div class="section" style="background-color:#fff">
+          <div class="wr">
+            <h2 class="section__title center standalone" style="color:#32325D;font-weight:300;font-family:&#x27;Roboto&#x27;, Arial, serif">
+              How it works
+            </h2>
+            <div class="zigzag">
+              <div class="zigzagItem zigzagItem--right">
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:#6B7C93;font-weight:400">
+                    #1
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:#32325D;font-weight:700">
+                    Aktie suchen
+                  </h3>
+                  <p class="zigzagItem__text" style="color:#6B7C93;font-weight:400">
+                    Aktie die Sie anzeigen lassen möchten suchen.
+                  </p>
+                </div>
+                <div class="zigzagItem__graphic">
+                  <img src="assets/one.png?w=350&amp;h=350" class="media media--image" srcSet="assets/one.png?w=700&amp;h=700 2x"/>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--left">
+                <div class="zigzagItem__graphic">
+                  <img src="assets/two.png?w=350&amp;h=350" class="media media--image" srcSet="assets/two.png?w=700&amp;h=700 2x"/>
+                </div>
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:#6B7C93;font-weight:400">
+                    #2
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:#32325D;font-weight:700">
+                    Chart anzeigen lassen
+                  </h3>
+                  <p class="zigzagItem__text" style="color:#6B7C93;font-weight:400">
+                    Sie können die Charts personalisieren, indem Sie die Standard-Symbole und Watchlist modifizieren oder Tools für technische Analysen hinzufügen und vieles mehr.
+                  </p>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--right">
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:#6B7C93;font-weight:400">
+                    #3
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:#32325D;font-weight:700">
+                    Präferenzen einstellen
+                  </h3>
+                  <p class="zigzagItem__text" style="color:#6B7C93;font-weight:400">
+                    Vorlieben für die Chartanalyse einstellen
+                  </p>
+                </div>
+                <div class="zigzagItem__graphic">
+                  <img src="assets/three.png?w=350&amp;h=350" class="media media--image" srcSet="assets/three.png?w=700&amp;h=700 2x"/>
+                </div>
+              </div>
+              <div class="zigzagItem zigzagItem--left">
+                <div class="zigzagItem__graphic">
+                  <img src="assets/four.png?w=350&amp;h=350" class="media media--image" srcSet="assets/four.png?w=700&amp;h=700 2x"/>
+                </div>
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:#6B7C93;font-weight:400">
+                    #4
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:#32325D;font-weight:700">
+                    Top Gainers
+                  </h3>
+                  <p class="zigzagItem__text" style="color:#6B7C93;font-weight:400">
+                    Das Stock Market Tool zeigt die Top 5 der Gewinner, Verlierer und Aktivsten Aktien des Tages. Das Widget wird auf der Grundlage der aktuellen Marktaktivitäten aktualisiert, so dass immer die relevantesten Aktien angezeigt werden.
+                  </p>                 
+            </div>
+          </div>
+
+             <div class="zigzagItem zigzagItem--right">
+                <div class="zigzagItem__content">
+                  <span class="zigzagItem__number" style="color:#6B7C93;font-weight:400">
+                    #5
+                  </span>
+                  <h3 class="zigzagItem__title" style="color:#32325D;font-weight:700">
+                    Ökonomischer Kalender
+                  </h3>
+                  <p class="zigzagItem__text" style="color:#6B7C93;font-weight:400">
+                    Der Wirtschaftskalender weist alle wichtigen Konjunktur- und Wirtschaftsindikatoren, die den globalen Finanzmarkt antreiben, in Echtzeit auf.
+                  </p>
+                </div>
+                <div class="zigzagItem__graphic">
+                  <img src="assets/five.png?w=350&amp;h=350" class="media media--image" srcSet="assets/five.png?w=700&amp;h=700 2x"/>
+                </div>
+              </div>
+        </div>
+      </div>
+     </div>
+
+      <div>
+        <footer class="section section--footer" style="background-color:#3885f5;background:linear-gradient(90deg, #3885f5 0%, #003e69 100%)">
+          <div class="wr">
+            <div class="footer" style="color:#eee;font-weight:400">
+              <div class="footer__primary">
+                <span>
+                  © 2018 Bavest
+                </span>
+                <nav class="footer__linkRow">
+                  <a href="support.html">
+                    Support
+                  </a>
+                  <a href="impressum.html">
+                    Impressum
+                  </a>
+                  <a href="privacy.html">
+                    Datenschutz
+                  </a>
+                  <a href="">
+                    Risikohinweis
+                  </a>
+                </nav>
+              </div>
+              <ul class="footer__social">
+                <li>
+                  <a href="https://www.facebook.com/BavestDE/" target="_blank">
+                    <svg viewBox="0 0 448 512">
+                      <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" fill="#eee">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/BavestDE" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="#eee">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/bavest.de/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="#eee">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@bavest" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                      <path d="M71.5 142.3c.6-5.9-1.7-11.8-6.1-15.8L20.3 72.1V64h140.2l108.4 237.7L364.2 64h133.7v8.1l-38.6 37c-3.3 2.5-5 6.7-4.3 10.8v272c-.7 4.1 1 8.3 4.3 10.8l37.7 37v8.1H307.3v-8.1l39.1-37.9c3.8-3.8 3.8-5 3.8-10.8V171.2L241.5 447.1h-14.7L100.4 171.2v184.9c-1.1 7.8 1.5 15.6 7 21.2l50.8 61.6v8.1h-144v-8L65 377.3c5.4-5.6 7.9-13.5 6.5-21.2V142.3z" fill="#eee">
+                      </path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
